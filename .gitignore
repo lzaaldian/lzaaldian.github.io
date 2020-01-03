@@ -1,0 +1,10 @@
+# Build files
+_site
+
+# Temporary files
+.sass-cache
+Gemfile.lock
+*.gem
+
+# macOS generated file
+.DS_Store
