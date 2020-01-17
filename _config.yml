@@ -1,6 +1,6 @@
 title: lzaaldian's blog
 description: My journal as a software developer
-remote_theme: "dracula/gh-pages"
+
 paginate: 2
 
 sass:
