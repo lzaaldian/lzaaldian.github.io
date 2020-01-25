@@ -87,6 +87,12 @@ a {
   }
 }
 
+/**
+ * =============================================================================
+ *  Layout
+ * =============================================================================
+ */
+
 .site--header {
   color: $header-heading-color;
   text-align: center;
@@ -332,12 +338,6 @@ a {
   }
 }
 
-/**
- * =============================================================================
- *  Layout
- * =============================================================================
- */
-
 .site--footer {
   padding-top: 2rem;
   margin-top: 2rem;
@@ -351,11 +351,13 @@ a {
 
   @include medium {
     padding: 2rem 4rem;
+    margin-top: 0;
     font-size: 1rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 1rem;
+    margin-top: 0;
     font-size: 0.9rem;
   }
 }
@@ -376,7 +378,7 @@ a {
  */
 
 .post--list-item {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   
   footer {
     margin-bottom: 1rem;
