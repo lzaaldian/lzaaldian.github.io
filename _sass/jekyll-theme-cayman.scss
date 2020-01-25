@@ -332,6 +332,12 @@ a {
   }
 }
 
+/**
+ * =============================================================================
+ *  Layout
+ * =============================================================================
+ */
+
 .site--footer {
   padding-top: 2rem;
   margin-top: 2rem;
@@ -363,6 +369,12 @@ a {
   color: $blockquote-text-color;
 }
 
+/**
+ * =============================================================================
+ *  Blog posts
+ * =============================================================================
+ */
+
 .post--list-item {
   margin-bottom: 2rem;
   
@@ -372,5 +384,16 @@ a {
     .publish-date {
       font-size: small;
     }
+  }
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+
+  a {
+    border: solid 0.0625rem #dce6f0;
+    padding: 0.5rem 1rem;
+    border-radius: 1.25rem;
   }
 }
