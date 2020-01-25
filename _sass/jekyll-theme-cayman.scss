@@ -338,7 +338,7 @@ a {
 
   @include large {
     max-width: 64rem;
-    padding: 2rem 6rem;
+    padding: 0 6rem 2rem;
     margin: 0 auto;
     font-size: 1rem;
   }
@@ -352,6 +352,11 @@ a {
     padding: 2rem 1rem;
     font-size: 0.9rem;
   }
+}
+
+.site--footer__divider {
+  border-top: solid 1px #dce6f0;
+  margin-bottom: 1rem;
 }
 
 .site--footer__credits {
