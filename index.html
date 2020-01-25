@@ -12,7 +12,7 @@ layout: default
     {{ post.excerpt }}
     
     <footer>
-      <span class="publish-date">Published at: <time datetime="{{ post.date | | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
+      <span class="publish-date">Published at: <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
     </footer>
 
     <a href="{{ post.url }}">Read more</a>
