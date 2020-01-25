@@ -1,3 +1,3 @@
-# lzaaldian.github.io
+# lzaaldian's blog
 
-A blog about my journey as a software developer [https://lzaaldian.github.io](https://lzaaldian.github.io)
+Notes about developing application in macOS
