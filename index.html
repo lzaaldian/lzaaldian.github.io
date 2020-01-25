@@ -4,7 +4,7 @@ layout: default
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <article>
+  <article class="post--list-item">
     <header>
       <h2>{{ post.title }}</h2>
     </header>
@@ -12,7 +12,7 @@ layout: default
     {{ post.excerpt }}
     
     <footer>
-      <time datetime="{{ post.date | | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+      <span class="publish-date">Published at: <time datetime="{{ post.date | | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
     </footer>
 
     <a href="{{ post.url }}">Read more</a>

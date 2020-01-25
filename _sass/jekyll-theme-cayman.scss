@@ -362,3 +362,15 @@ a {
 .site--footer__credits {
   color: $blockquote-text-color;
 }
+
+.post--list-item {
+  margin-bottom: 2rem;
+  
+  footer {
+    margin-bottom: 1rem;
+
+    .publish-date {
+      font-size: small;
+    }
+  }
+}
