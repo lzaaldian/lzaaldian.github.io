@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Things to do after getting macOS
 ---
 
 A new year is started and you might get a new Mac for your new year present. Or, maybe you want to reinstall your Mac because many applications installed and you feel that your OS is *dirty* so you want to clean them up and start fresh.
