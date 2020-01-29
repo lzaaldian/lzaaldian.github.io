@@ -98,6 +98,4 @@ I use Google Chrome to debug Cordova application installed on Android device. An
 
 [Flow](https://yugen.design/flow/) is a timer application for macOS which adhere to Pomodoro technique. This is a handy app to stay focused and help to get things done.
 
-### Conclusion
-
 With your new Mac or refreshed Mac loaded with awesome tools, I hope you can enjoy developing great applications. Have fun and happy coding!.
