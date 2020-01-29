@@ -1,3 +1,3 @@
 # lzaaldian's blog
 
-Notes about developing application in macOS
+Notes about developing applications in macOS
