@@ -32,8 +32,6 @@ Try `brew install package_name` to install a package.
 
 ##### Node.js
 
-![node.js logo](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
-
 This is an essential tool to develop web applications these days.
 
 ##### Other tools
@@ -76,7 +74,7 @@ These are the packages/plugins that make Sublime Text awesome for developing web
   - [SublimeLinter-contrib-standard](https://packagecontrol.io/packages/SublimeLinter-contrib-standard): JavaScript linter using JavaScript Standard Style.
   - [StandardFormat](https://packagecontrol.io/packages/StandardFormat): code formatter for JavaScript Standard Style.
   - [StandardSnippets](https://packagecontrol.io/packages/StandardSnippets): if using Babel as a default JavaScript syntax, the snippets from Sublime Text won't work. This package make it works again with JavaScript Standard Style.
-  - [Theme - Monokai Pro](https://packagecontrol.io/packages/Theme%20-%20Monokai%20Pro): a perfect theme for Sublime Text.
+- [Theme - Monokai Pro](https://packagecontrol.io/packages/Theme%20-%20Monokai%20Pro): a perfect theme for Sublime Text.
 
 ### Install Sublime Merge
 
