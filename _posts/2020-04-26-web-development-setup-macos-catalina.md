@@ -31,9 +31,9 @@ Go to [Oh My Zsh website](https://ohmyz.sh) to install and get ready to make Ter
 
 It's not about how to get money by sucking bloods like a dracula. But, using [Dracula Pro](https://draculatheme.com/pro) theme in your tools. I use Dracula Pro for my desktop wallpaper, Terminal app and Sublime Text. For other apps, I use regular Dracula theme.
 
-Here's how a professional dracula looks like
+Here's how a professional dracula looks like.
 
-screenshot of desktop with dracula themes
+![macos desktop with dracula pro](/assets/images/macos-desktop-dracula-pro-2020-04-26.png)
 
 ### Install Git Flow
 
