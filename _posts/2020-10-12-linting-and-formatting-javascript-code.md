@@ -6,6 +6,7 @@ title: Linting and Formatting JavaScript Code
 Writing error free code and easy to understand is a must in these days. This can be achieved by adhering to a code style. The most popular code style for JavaScript are [Google JavaScript Style](https://google.github.io/styleguide/jsguide.html), [Airbnb JavaScript Style](https://airbnb.io/javascript/) and [JavaScript Standard Style](https://standardjs.com/).
 
 A tool that can help us writing better code is [ESLint](https://eslint.org/). ESLint will help us identifying problems in our code and it can also enforce us to write code with a code style we choose to adhere. Note that ESLint will only identify and fix small problems like removing semicolons, add missing space before parentheses or so.
+
 If we want to format our code, we can use tool like [Prettier](https://prettier.io/) to automatically format our codes. A formatter is able to format our code, but it is unable to identifyng problems in our code like unused variables, assigning a constant, missing closing bracket, etc.
 
 This is why we need both of them and I will show you how to lint and format JavaScript codes. We will use ESLint to lint our codes with JavaScript Standard Style and `prettier-standard`
@@ -18,7 +19,7 @@ First of all we need to create a `package.json` file using `npm init -y` command
 
 ### Detect problems using ESLint
 
-Then, install ESLint with JavaScript Standard Style configuration by running `npx eslint --init`. This will give you interactive command line and you can use up and down key to navigate, space to select and enter or return to confirm your selection.
+Next step is install ESLint with JavaScript Standard Style configuration by running `npx eslint --init`. This will give you interactive command line and you can use up and down key to navigate, space to select and enter or return to confirm your selection.
 
 ![terminal running npx eslint command to choose how to use eslint](/assets/images/2020-10-12-linting-and-formatting-javascript-code--02.png)
 ![terminal running npx eslint command to choose type of module](/assets/images/2020-10-12-linting-and-formatting-javascript-code--03.png)
@@ -80,8 +81,14 @@ Try to run `npm run lint` and you will see your code is automatically formatted 
 ![errors displayed in terminal](/assets/images/2020-10-12-linting-and-formatting-javascript-code--14.png)
 ![formatted code](/assets/images/2020-10-12-linting-and-formatting-javascript-code--15.png)
 
+Now you can write clean code with confident 😎
+
 ### Why not install formatter in code editor?
 
 First, in my case, it makes Sublime Text freezing when formatting is in process. Using command line to format code is much faster.
+
 Second, you can hook with `precommit` to automatically format your code before committing changes. See [prettier-standard documentation](https://github.com/sheerun/prettier-standard#examples) to do this.
 
+### References
+
+- Code snippet for testing ESLint from [Builder Book](https://builderbook.org/books/builder-book/app-structure-next-js-hoc-material-ui-server-side-rendering-styles#eslint-and-prettier)
