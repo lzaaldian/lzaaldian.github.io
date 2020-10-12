@@ -14,22 +14,22 @@ This is why we need both of them and I will show you how to lint and format Java
 
 First of all we need to create a `package.json` file using `npm init -y` command. This will help us populate `package.json` file easily.
 
-![terminal running npm init command](2020-10-12-linting-and-formatting-javascript-code--01.png)
+![terminal running npm init command](/assets/images/2020-10-12-linting-and-formatting-javascript-code--01.png)
 
 ### Detect problems using ESLint
 
 Then, install ESLint with JavaScript Standard Style configuration by running `npx eslint --init`. This will give you interactive command line and you can use up and down key to navigate, space to select and enter or return to confirm your selection.
 
-![terminal running npx eslint command to choose how to use eslint](2020-10-12-linting-and-formatting-javascript-code--02.png)
-![terminal running npx eslint command to choose type of module](2020-10-12-linting-and-formatting-javascript-code--03.png)
-![terminal running npx eslint command to choose framework we use](2020-10-12-linting-and-formatting-javascript-code--04.png)
-![terminal running npx eslint command to choose whether we use typescript](2020-10-12-linting-and-formatting-javascript-code--05.png)
-![terminal running npx eslint command to choose where our code run](2020-10-12-linting-and-formatting-javascript-code--06.png)
-![terminal running npx eslint command to choose how to choose code style](2020-10-12-linting-and-formatting-javascript-code--07.png)
-![terminal running npx eslint command to choose code style](2020-10-12-linting-and-formatting-javascript-code--08.png)
-![terminal running npx eslint command to choose format to save configurations](2020-10-12-linting-and-formatting-javascript-code--09.png)
-![terminal running npx eslint command to choose when to install dependencies](2020-10-12-linting-and-formatting-javascript-code--10.png)
-![terminal running npx eslint command result](2020-10-12-linting-and-formatting-javascript-code--11.png)
+![terminal running npx eslint command to choose how to use eslint](/assets/images/2020-10-12-linting-and-formatting-javascript-code--02.png)
+![terminal running npx eslint command to choose type of module](/assets/images/2020-10-12-linting-and-formatting-javascript-code--03.png)
+![terminal running npx eslint command to choose framework we use](/assets/images/2020-10-12-linting-and-formatting-javascript-code--04.png)
+![terminal running npx eslint command to choose whether we use typescript](/assets/images/2020-10-12-linting-and-formatting-javascript-code--05.png)
+![terminal running npx eslint command to choose where our code run](/assets/images/2020-10-12-linting-and-formatting-javascript-code--06.png)
+![terminal running npx eslint command to choose how to choose code style](/assets/images/2020-10-12-linting-and-formatting-javascript-code--07.png)
+![terminal running npx eslint command to choose code style](/assets/images/2020-10-12-linting-and-formatting-javascript-code--08.png)
+![terminal running npx eslint command to choose format to save configurations](/assets/images/2020-10-12-linting-and-formatting-javascript-code--09.png)
+![terminal running npx eslint command to choose when to install dependencies](/assets/images/2020-10-12-linting-and-formatting-javascript-code--10.png)
+![terminal running npx eslint command result](/assets/images/2020-10-12-linting-and-formatting-javascript-code--11.png)
 
 Next, we will install ESLint plugin in our code editor. In my case, I'm using [Sublime Text](https://www.sublimetext.com) and I will use [LSP](https://packagecontrol.io/packages/LSP) and [lsp-eslint](https://packagecontrol.io/packages/LSP-eslint) packages.
 
@@ -45,7 +45,7 @@ Now, create `index.js` file and use code below for testing.
 
 You will see errors like picture below as soon as you paste those code.
 
-![code editor showing errors](2020-10-12-linting-and-formatting-javascript-code--12.png)
+![code editor showing errors](/assets/images/2020-10-12-linting-and-formatting-javascript-code--12.png)
 
 This is the benefit of using ESLint to lint our code. ESLint will show the warning and description of the error so we can fix them or ESLint will fix some error when you save the file.
 
@@ -73,12 +73,12 @@ Then, we register a command in `package.json` to format our code.
 }
 ```
 
-![register command to format code in package.json](2020-10-12-linting-and-formatting-javascript-code--13.png)
+![register command to format code in package.json](/assets/images/2020-10-12-linting-and-formatting-javascript-code--13.png)
 
 Try to run `npm run lint` and you will see your code is automatically formatted and any errors will be displayed in terminal and in the editor.
 
-![errors displayed in terminal](2020-10-12-linting-and-formatting-javascript-code--14.png)
-![formatted code](2020-10-12-linting-and-formatting-javascript-code--15.png)
+![errors displayed in terminal](/assets/images/2020-10-12-linting-and-formatting-javascript-code--14.png)
+![formatted code](/assets/images/2020-10-12-linting-and-formatting-javascript-code--15.png)
 
 ### Why not install formatter in code editor?
 
